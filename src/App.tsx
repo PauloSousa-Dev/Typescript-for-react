@@ -2,6 +2,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { Counter } from "./components/CounterClass/CounterClass";
+import { HelloWorld } from "./components/HelloWorld/HelloWorld";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       </div>
       <h1>Counter Class example</h1>
       <Counter defaultCount={1} />
+
+      <h1>Functional Component example</h1>
+      <HelloWorld message="Hello World" />
     </>
   );
 }
